@@ -12,7 +12,7 @@ const Counter = () => {
   }, [comp]);
 
   return (
-    <div className="bg-red-500 h-[50vh] font-bold text-2xl flex gap-8">
+    <div className="bg-gray-500 h-[50vh] font-bold text-2xl flex gap-8">
       <ul className="flex flex-col gap-4">
         <li
           onClick={() => setComp(<Yek />)}
